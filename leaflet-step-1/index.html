@@ -17,11 +17,22 @@
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="bg-info col-md-12 text-center">
+        <h1>USGS Significant Earthquakes</h1>
+        <p>Map Below Displays geographical Location, Depth, and Magnitude of global earthquake occurences within the past 30 days</p>
+      </div>
+    </div>
+  </div>
   <!-- The div where we'll insert our map -->
   <div id="map"></div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/heatmapjs@2.0.2/heatmap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-heatmap@1.0.0/leaflet-heatmap.js"></script> -->
   <!-- d3 dependencies -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
