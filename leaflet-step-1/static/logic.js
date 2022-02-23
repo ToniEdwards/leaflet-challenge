@@ -11,7 +11,7 @@ var myMap = L.map("map",{
 //Build Markers function
 function buildMarkers() { 
     //Data source
-    var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
+    var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
     //Retrieve data
     d3.json(url).then((data) => {
     //   console.log(data);
@@ -39,6 +39,8 @@ function buildMarkers() {
                 return "#fecc5c";
             case depth >= 0:
                 return "#ffffb2";
+            default:
+              return "#a8ddb5";
         }
       };
     L.geoJson(data, {
