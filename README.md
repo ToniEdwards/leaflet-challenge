@@ -6,12 +6,12 @@ Each of these factors have their own visual representation and the details can b
 ## The Visual Indicators
 ### Location
 The location of the occurence is vividly indicated by a circular marker indicated on the map using the coordinates of the occurence provided from the live feed detail.
-### Radius
-Likewise the area impacted can be examined by the width of the circle marker itself which is predetermined from the radius impact also provided from the live feed detail.
+### Magnitude
+Likewise the area impacted can be examined by the radius of the circle marker itself which is predetermined from the magnitude value also provided from the live feed detail.
 ### Depth
 The various colors of the circle markers represent the depth of the earthquake occurence the relationship between depth(km) and color gradient can be interpreted by examining the legend displayed in the top right corner of the map.
 ## The Map
-Use the zoom feature located in the top left corner of the map to examine the location more closely to identify regional level details such as country, state, city of the surrounding the earthquake occurance.
+Use the zoom feature located in the top left corner of the map to examine the location more closely and to identify region level details such as country, state, city of the surrounding the earthquake occurance.
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/90237519/155239905-e33834ab-f4fe-4017-bfff-549ca7f9f4e8.png">
 
