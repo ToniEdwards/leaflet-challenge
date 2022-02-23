@@ -3,7 +3,7 @@ For this project I have examined USGS provided data from the Earthquakes Hazards
 ## The Challenge
 The challenge is to leverage leaflet js plug in with html to display the map along with visual indicators of important factors concerning the earthquake event such as the location, radius of impact, and depth in kilometers.
 Each of these factors have their own visual representation and the details can be reviewed via a pop up which is activated by right clicking on each of the various markers on the map.
-## Visual Indicators
+## The Visual Indicators
 ### Location
 The location of the occurence is vividly indicated by a circular marker indicated on the map using the coordinates of the occurence provided from the live feed detail.
 ### Radius
