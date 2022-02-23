@@ -5,7 +5,7 @@ The challenge is to leverage leaflet js plug in with html to display the map alo
 Each of these factors have their own visual representation and the details can be reviewed via a pop up which is activated by right clicking on each of the various markers on the map.
 ## The Visual Indicators
 ### Location
-The location of the occurence is vividly indicated by a circular marker indicated on the map using the coordinates of the occurence provided from the live feed detail.
+The location of the occurence is vividly indicated by a circular marker indicated on the map using the geographical coordinates of the occurence provided from the live feed detail.
 ### Magnitude
 Likewise the area impacted can be examined by the radius of the circle marker itself which is predetermined from the magnitude value also provided from the live feed detail.
 ### Depth
